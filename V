@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Web Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+            color: #333;
+        }
+        header {
+            background-color: #8b4513;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #228b22;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #556b2f;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+        }
+        .portfolio, .gallery, .blog, .contact {
+            margin-bottom: 40px;
+        }
+        .portfolio img, .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #8b4513;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+        <p>"Voyager, c'est découvrir de nouvelles âmes."</p>
+    </header>
+    <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#gallery">Galerie de voyage</a>
+        <a href="#blog">Partage d'expérience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio de mes projets design</h2>
+        <!-- Remplace les liens des images par les tiennes -->
+        <img src="project1.jpg" alt="Projet 1">
+        <img src="project2.jpg" alt="Projet 2">
+        <img src="project3.jpg" alt="Projet 3">
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Galerie de voyage</h2>
+        <!-- Remplace les liens des images par les tiennes -->
+        <img src="travel1.jpg" alt="Voyage 1">
+        <img src="travel2.jpg" alt="Voyage 2">
+        <img src="travel3.jpg" alt="Voyage 3">
+    </section>
+    <section id="blog" class="blog">
+        <h2>Partage d'expérience</h2>
+        <article>
+            <h3>Mon voyage au Japon</h3>
+            <p>Le Japon est un pays incroyable avec une culture riche et diversifiée...</p>
+        </article>
+        <article>
+            <h3>Découverte de la cuisine italienne</h3>
+            <p>La cuisine italienne est mondialement célèbre pour ses saveurs uniques...</p>
+        </article>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="mailto:ton-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Votre nom">
+            <input type="email" name="email" placeholder="Votre email">
+            <textarea name="message" placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <div class="social-links">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mon Nom. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
